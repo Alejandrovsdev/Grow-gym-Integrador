@@ -29,7 +29,7 @@ li, a{
   max-width: 100vw;
   height: 85px;
   padding: 5px 10%;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 5;
 }
@@ -90,6 +90,7 @@ li, a{
 }
 
 .hero {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -123,11 +124,12 @@ li, a{
 }
 
 .about {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   text-align: center;
   background: url(/assets/gymbackground.jpg);
   background-repeat: no-repeat;
@@ -141,12 +143,15 @@ li, a{
 .about p{
   display: flex;
   margin: 20px;
+  line-height: 30px;
   max-width: 800px;
 }
 
 .about h2{
   margin: 20px;
+  margin-top: 60px;
   color: #bfff00;
+  line-height: 100px;
 }
 
 .about iframe {
@@ -172,6 +177,7 @@ li, a{
 }
 
 .service {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
