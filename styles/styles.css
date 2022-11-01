@@ -129,6 +129,13 @@ li, a{
   align-items: center;
   height: 100vh;
   text-align: center;
+  background: url(/assets/gymbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(130, 130, 130);
+  background-blend-mode: soft-light;
+  color: #fff;
+  font-size: 20px;
 }
 
 .about p{
