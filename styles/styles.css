@@ -131,7 +131,7 @@ li, a{
   align-items: center;
   height: 100%;
   text-align: center;
-  background: url(/assets/gymbackground.jpg);
+  background: url(/assets/gymbackground2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(130, 130, 130);
@@ -165,7 +165,7 @@ li, a{
 }
 
 .about i{
-  margin-top: 40px;
+  margin: 80px 0;
   height: 50px;
   font-size: 50px;
   color: #bfff00;
@@ -183,13 +183,17 @@ li, a{
   justify-content: center;
   align-items: center;
   height: 100%;
-  margin-top: 100px;
+  background: url(/assets/gymbackground3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(130, 130, 130);
+  background-blend-mode: soft-light;
 }
 
 .service h2{
   font-size: 50px;
   color: #bfff00;
-  margin: 100px;
+  margin: 80px 0;
   text-align: center;
 }
 
@@ -203,8 +207,6 @@ li, a{
   justify-content: center;
   gap: 40px;
 }
-
-
 
 .card {
   display: flex;
