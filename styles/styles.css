@@ -102,6 +102,7 @@ li, a{
   background-color: rgb(130, 130, 130);
   background-blend-mode: soft-light;
   color: #bfff00;
+  background-position: center;
 }
 
 .hero h1 {
@@ -136,6 +137,7 @@ li, a{
   background-size: cover;
   background-color: rgb(130, 130, 130);
   background-blend-mode: soft-light;
+  background-position: center;
   color: #fff;
   font-size: 20px;
 }
@@ -188,6 +190,7 @@ li, a{
   background-size: cover;
   background-color: rgb(130, 130, 130);
   background-blend-mode: soft-light;
+  background-position: center;
 }
 
 .service h2{
